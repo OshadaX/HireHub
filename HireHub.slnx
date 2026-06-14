@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HireHub.API/HireHub.API.csproj" />
+    <Project Path="src/HireHub.Domain/HireHub.Domain.csproj" />
+  </Folder>
+</Solution>
