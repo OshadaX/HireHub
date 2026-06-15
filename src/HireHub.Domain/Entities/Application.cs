@@ -10,8 +10,8 @@ public class Application
     public DateTime AppliedAt { get; set; } = DateTime.UtcNow;
 
     public Guid JobId { get; set; }
-    public Job Job { get; set; } = null!;
+    public Job? Job { get; set; } 
 
     public Guid UserId { get; set; }
-    public User User { get; set; } = null!;
+    public User? User { get; set; } 
 }
