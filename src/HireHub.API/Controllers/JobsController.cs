@@ -2,11 +2,13 @@ using HireHub.API.Data;
 using HireHub.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HireHub.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class JobsController : ControllerBase
 {
     private readonly AppDbContext _context;
