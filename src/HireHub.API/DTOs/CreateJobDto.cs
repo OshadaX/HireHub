@@ -22,4 +22,7 @@ public class CreateJobDto
     [RegularExpression("^(FullTime|PartTime|Remote|Contract)$",
         ErrorMessage = "Job type must be FullTime, PartTime, Remote, or Contract")]
     public string JobType { get; set; } = string.Empty;
+
+    [Required(ErrorMessage = "Company is required")]
+public Guid CompanyId { get; set; }
 }
