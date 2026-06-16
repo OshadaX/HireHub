@@ -21,6 +21,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HireHub.Domain\HireHub.Domain.csproj" />
+    <ProjectReference Include="..\HireHub.Application\HireHub.Application.csproj" />
+    <ProjectReference Include="..\HireHub.Infrastructure\HireHub.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

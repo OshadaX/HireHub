@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using HireHub.Domain.Enums;
 
-namespace HireHub.API.DTOs;
+namespace HireHub.Application.DTOs;
 
 public class UpdateApplicationStatusDto
 {

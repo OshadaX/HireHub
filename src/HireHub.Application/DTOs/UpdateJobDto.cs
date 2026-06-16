@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace HireHub.API.DTOs;
+namespace HireHub.Application.DTOs;
 
 public class UpdateJobDto
 {

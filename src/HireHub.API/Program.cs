@@ -1,4 +1,4 @@
-using HireHub.API.Data;
+using HireHub.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

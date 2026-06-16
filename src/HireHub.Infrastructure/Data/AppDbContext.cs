@@ -1,7 +1,7 @@
 using HireHub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace HireHub.API.Data;
+namespace HireHub.Infrastructure.Data;
 
 public class AppDbContext : DbContext
 {
@@ -12,6 +12,6 @@ public class AppDbContext : DbContext
     public DbSet<User> Users { get; set; }
     public DbSet<Company> Companies { get; set; }
     public DbSet<Job> Jobs { get; set; }
-    public DbSet<Application> Applications { get; set; }
+    public DbSet<HireHub.Domain.Entities.Application> Applications { get; set; }
     public DbSet<Notification> Notifications { get; set; }
 }

@@ -1,8 +1,8 @@
-using HireHub.API.Data;
+using HireHub.Infrastructure.Data;
 using HireHub.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using HireHub.API.DTOs;
+using HireHub.Application.DTOs;
 
 namespace HireHub.API.Controllers;
 
@@ -54,7 +54,7 @@ public async Task<IActionResult> GetAllApplications()
         if (alreadyApplied)
             return Conflict("You have already applied for this job.");
 
-        var application = new Application
+        var application = new HireHub.Domain.Entities.Application
         {
             Id = Guid.NewGuid(),
             JobId = dto.JobId,

@@ -1,4 +1,4 @@
-using HireHub.API.Data;
+using HireHub.Infrastructure.Data;
 using HireHub.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

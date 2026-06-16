@@ -1,4 +1,4 @@
-namespace HireHub.API.DTOs;
+namespace HireHub.Application.DTOs;
 
 public class ApplicationResponseDto
 {
