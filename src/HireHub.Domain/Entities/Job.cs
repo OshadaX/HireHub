@@ -9,6 +9,8 @@ public class Job
     public string Description { get; set; } = string.Empty;
     public string Location { get; set; } = string.Empty;
     public decimal Salary { get; set; }
+
+    public string JobType { get; set; } = string.Empty;
     public JobStatus Status { get; set; } = JobStatus.Draft;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
